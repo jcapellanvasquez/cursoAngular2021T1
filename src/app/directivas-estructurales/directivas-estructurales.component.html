@@ -1,0 +1,21 @@
+<!-- if -->
+<!-- else -->
+ <!-- switch -->
+ <!-- for -->
+
+<!-- Uso del ngIf -->
+<p *ngIf="mostrarContenido; else mensaje">
+    Este parrafo esta dentro de un if
+</p>
+<ng-template #mensaje>
+    <h1>
+        El contenido esta oculto
+    </h1>
+</ng-template>
+
+
+<ul>
+    <li *ngFor="let i of listado">
+        {{i}}
+    </li>
+</ul>

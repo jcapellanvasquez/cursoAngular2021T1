@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PerosnalCardComponent } from './perosnal-card/perosnal-card.component';
 import { DirectivasEstructuralesComponent } from './directivas-estructurales/directivas-estructurales.component';
+import { ListaComponent } from './lista/lista.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     PerosnalCardComponent,
-    DirectivasEstructuralesComponent
+    DirectivasEstructuralesComponent,
+    ListaComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

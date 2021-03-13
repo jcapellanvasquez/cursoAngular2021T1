@@ -1,0 +1,12 @@
+<div class="container">
+<div class="card mt-5">
+    <div class="card-body">
+        <h5 class="card-title mb-5">
+            Ejemplo de comunicacion entre componentes
+        </h5>
+        <app-search-box (onSearch)="searchHandler($event)" ></app-search-box>
+        <br>
+        <app-serach-results [list]="this.list"></app-serach-results>
+    </div>
+</div>
+</div>

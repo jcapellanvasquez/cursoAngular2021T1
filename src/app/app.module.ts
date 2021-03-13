@@ -7,6 +7,11 @@ import { DirectivasEstructuralesComponent } from './directivas-estructurales/dir
 import { ListaComponent } from './lista/lista.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { PrimerasClasesComponent } from './primeras-clases/primeras-clases.component';
+import { QuintaClaseComponent } from './quinta-clase/quinta-clase.component';
+import { SearchBoxComponent } from './quinta-clase/search-box/search-box.component';
+import { SerachResultsComponent } from './quinta-clase/serach-results/serach-results.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,19 @@ import { FormsModule } from '@angular/forms';
     PerosnalCardComponent,
     DirectivasEstructuralesComponent,
     ListaComponent,
+    PrimerasClasesComponent,
+    QuintaClaseComponent,
+    SearchBoxComponent,
+    SerachResultsComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot([
+      { path: 'primeras-clases', component: PrimerasClasesComponent },
+      { path: 'quinta-clase', component: QuintaClaseComponent },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

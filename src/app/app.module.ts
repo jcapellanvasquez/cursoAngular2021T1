@@ -12,6 +12,7 @@ import { PrimerasClasesComponent } from './primeras-clases/primeras-clases.compo
 import { QuintaClaseComponent } from './quinta-clase/quinta-clase.component';
 import { SearchBoxComponent } from './quinta-clase/search-box/search-box.component';
 import { SerachResultsComponent } from './quinta-clase/serach-results/serach-results.component';
+import { ResumirTextoPipe } from './sexta-clase/resumir-texto.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SerachResultsComponent } from './quinta-clase/serach-results/serach-res
     PrimerasClasesComponent,
     QuintaClaseComponent,
     SearchBoxComponent,
-    SerachResultsComponent
+    SerachResultsComponent,
+    ResumirTextoPipe
   ],
   imports: [
     BrowserModule,

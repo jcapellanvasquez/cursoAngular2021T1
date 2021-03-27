@@ -1,0 +1,29 @@
+:host {
+    display: block;
+    /* width: 100%;
+    height: auto;
+    background-color: aqua; */
+}
+
+:host ::ng-deep h4 {
+    text-decoration: underline;
+}
+
+:host ::ng-deep p  {
+    line-height: 1.8;
+    font-size: 1.3rem;
+}
+
+
+:host ::ng-deep div.toolbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 3rem;
+
+}
+
+:host ::ng-deep div.toolbar > button {
+    margin-right: .8rem;
+    
+}

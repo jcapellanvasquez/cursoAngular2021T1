@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-playground-13f9b": {
+      "hosting": {
+        "project-final": [
+          "angular-playground-13f9b"
+        ]
+      }
+    }
+  }
+}
